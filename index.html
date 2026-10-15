@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>نظم الثريا لتقنية المعلومات</title>
 <meta name="description" content="نظم الثريا لتقنية المعلومات: برمجة المواقع والمنصات والتطبيقات، وتصميم الهوية والمحتوى، والتسويق والإعلانات. الرياض، المملكة العربية السعودية.">
-<meta name="theme-color" content="#252772">
+<meta name="theme-color" content="#0A1630">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <meta property="og:title" content="نظم الثريا لتقنية المعلومات">
 <meta property="og:description" content="نظم الثريا لتقنية المعلومات: برمجة المواقع والمنصات والتطبيقات، وتصميم الهوية والمحتوى، والتسويق والإعلانات. الرياض، المملكة العربية السعودية.">
@@ -13,7 +13,7 @@
 <meta property="og:url" content="https://nuzumalthuraya.com/">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@500;600;700&family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -30,7 +30,8 @@
 <header>
   <div class="wrap bar">
     <a class="brand" href="./" aria-label="نظم الثريا — الرئيسية"><svg class="logo logo-h" role="img" aria-label="شعار نظم الثريا"><use href="#nz-logo-h"/></svg></a>
-    <nav aria-label="القائمة الرئيسية"><ul>
+    <button class="menu-btn" type="button" id="menu-btn" aria-expanded="false" aria-controls="main-nav" aria-label="القائمة"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    <nav aria-label="القائمة الرئيسية" id="main-nav"><ul>
       <li><a href="#services">الخدمات</a></li>
       <li><a href="#process">آلية العمل</a></li>
       <li><a href="#products">منتجاتنا</a></li>
@@ -53,12 +54,30 @@
           <a class="cta ghost" href="#services">استعرض الخدمات</a>
         </div>
       </div>
-      <figure class="sky">
-        <svg class="mark-xl" role="img" aria-label="رمز نظم الثريا"><use href="#nz-mark"/></svg>
-        <svg class="wm" aria-hidden="true"><use href="#nz-ar"/></svg>
-        <svg class="en" aria-hidden="true"><use href="#nz-en"/></svg>
-        <figcaption>يرمز الشعار إلى عنقود الثريا، ويعكس ترابط نجومه السبعة الأسطع وسطوعها.</figcaption>
-        <span class="cap">M45 · Pleiades</span>
+      <figure class="sky" style="margin:0">
+        <svg viewBox="0 0 440 300" role="img" aria-label="رسم لعنقود الثريا بمواقع نجومه التسعة الأسطع">
+          <path class="ln" d="M43 218 L180 200 L276 260 M180 200 L317 104 L367 68 M317 104 L400 134 L395 200 L276 260 M317 104 L310 38 M43 218 L40 188"/>
+          <circle class="st tw" cx="180" cy="200" r="6"/>
+          <circle class="st tw" cx="43" cy="218" r="4.6"/>
+          <circle class="st tw" cx="395" cy="200" r="4.4"/>
+          <circle class="st tw" cx="317" cy="104" r="4"/>
+          <circle class="st tw" cx="276" cy="260" r="3.6"/>
+          <circle class="st tw" cx="367" cy="68" r="3.4"/>
+          <circle class="st tw" cx="40" cy="188" r="2.6"/>
+          <circle class="st tw" cx="400" cy="134" r="2.4"/>
+          <circle class="st tw" cx="310" cy="38" r="2"/>
+          <circle cx="180" cy="200" r="13" fill="none" stroke="var(--gold)" stroke-width=".8"/>
+          <text class="nm" x="180" y="232" text-anchor="middle">الكيوني</text>
+          <text class="nm" x="58" y="240" text-anchor="middle">أطلس</text>
+          <text class="nm" x="395" y="222" text-anchor="middle">إلكترا</text>
+          <text class="nm" x="296" y="100" text-anchor="end">مايا</text>
+          <text class="nm" x="262" y="264" text-anchor="end">ميروبي</text>
+          <text class="nm" x="352" y="62" text-anchor="end">تايجيتا</text>
+          <text class="nm" x="56" y="178" text-anchor="start">بليوني</text>
+          <text class="nm" x="388" y="150" text-anchor="end">سيلينو</text>
+          <text class="nm" x="296" y="32" text-anchor="end">أستيروبي</text>
+        </svg>
+        <figcaption class="cap"><span>M45 · Pleiades</span><span>RA 03h47m · Dec +24°07′</span><span>~444 ly</span></figcaption>
       </figure>
     </div>
   </section>
@@ -173,9 +192,6 @@
       </div>
       <dl class="facts">
         <div><dt>الاسم التجاري</dt><dd>شركة نظم الثريا لتقنية المعلومات</dd></div>
-        <div><dt>الكيان</dt><dd>ذات مسؤولية محدودة من شخص واحد</dd></div>
-        <div><dt>النشاط</dt><dd>البرمجة الحاسوبية، والإعلان</dd></div>
-        <div><dt>رأس المال</dt><dd>10,000 ريال</dd></div>
         <div><dt>رقم السجل التجاري</dt><dd style="font-variant-numeric:tabular-nums">7055091172</dd></div>
         <div><dt>المقر</dt><dd>المملكة العربية السعودية - الرياض</dd></div>
       </dl>
@@ -214,7 +230,7 @@
         </label>
         <label for="f-msg">تفاصيل المشروع<textarea id="f-msg" name="message" placeholder="مثال: نحتاج منصة حجز لعيادات مع تطبيق جوال، مع حملة إعلانية عند الإطلاق."></textarea></label>
         <label class="consent" for="f-ok"><input type="checkbox" id="f-ok" name="consent" value="نعم" required> أوافق على معالجة بياناتي للرد على طلبي وفق <a href="privacy.html" target="_blank" rel="noopener">سياسة الخصوصية</a>.</label>
-        <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px">
+        <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true" style="display:none">
         <button class="cta" type="submit" id="f-send">أرسل الطلب</button>
         <p class="ok" id="f-status" role="status" hidden></p>
       </form>
@@ -233,6 +249,17 @@
 
 </div>
 <script>
+(function () {
+  var btn = document.getElementById('menu-btn');
+  var nav = document.getElementById('main-nav');
+  btn.addEventListener('click', function () {
+    var open = nav.classList.toggle('open');
+    btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+  nav.addEventListener('click', function (e) {
+    if (e.target.tagName === 'A') { nav.classList.remove('open'); btn.setAttribute('aria-expanded', 'false'); }
+  });
+})();
 (function () {
   var form = document.getElementById('lead');
   var s = document.getElementById('f-status');
