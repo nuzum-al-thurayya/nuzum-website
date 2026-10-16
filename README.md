@@ -11,6 +11,9 @@
 | `terms.html` | الشروط والأحكام |
 | `style.css` | التنسيق وألوان الهوية |
 | `favicon.svg` | أيقونة المتصفح (رمز الشعار) |
+| `logo.png` | الشعار لنتائج البحث |
+| `og-image.png` | الصورة التي تظهر عند مشاركة الرابط |
+| `sitemap.xml` و `robots.txt` | خريطة الموقع وتعليمات محركات البحث |
 | `CNAME` | ربط الموقع بالنطاق nuzumalthuraya.com |
 
 نموذج التواصل يرسل إلى info@nuzumalthuraya.com عبر Formspree؛ معرّف النموذج `meaevegv` في `index.html`.
