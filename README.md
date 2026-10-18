@@ -10,7 +10,7 @@
 | `privacy.html` | سياسة الخصوصية |
 | `terms.html` | الشروط والأحكام |
 | `style.css` | التنسيق وألوان الهوية |
-| `favicon.svg` | أيقونة المتصفح (رمز الشعار) |
+| `favicon.svg` و `favicon.ico` و `favicon-*.png` و `apple-touch-icon.png` | أيقونة الموقع في المتصفح ونتائج Google والجوال |
 | `logo.png` | الشعار لنتائج البحث |
 | `og-image.png` | الصورة التي تظهر عند مشاركة الرابط |
 | `sitemap.xml` و `robots.txt` | خريطة الموقع وتعليمات محركات البحث |
