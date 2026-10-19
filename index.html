@@ -76,8 +76,8 @@
       <li><a href="#process">آلية العمل</a></li>
       <li><a href="#products">منتجاتنا</a></li>
       <li><a href="#about">عن الشركة</a></li>
-      <li><a href="#join">انضم إلينا</a></li>
       <li><a href="#contact">تواصل معنا</a></li>
+      <li><a href="#join">انضم إلينا</a></li>
     </ul></nav>
     <a class="cta" href="#contact">اطلب استشارة</a>
   </div>
@@ -155,9 +155,9 @@
           </header>
           <p>نصنع الأصول الإبداعية التي تميّز برنامجك أو موقعك، ونسلّمها بملفاتها المصدرية وإقرار تنازل كامل عن حقوقها.</p>
           <ul class="svc">
-            <li><b>ابتكار أسماء البرامج والمواقع</b><span>أسماء مقترحة للمنشأة أو المنتج، مع فحص أولي لتوفر النطاق وحسابات التواصل الاجتماعي.</span></li>
+            <li><b>ابتكار أسماء البرامج والمواقع</b><span>أسماء مقترحة للمنشأة أو المنتج، مع فحص أولي لتوافر النطاق وحسابات التواصل الاجتماعي.</span></li>
             <li><b>الشعار والهوية البصرية للبرامج والمواقع</b><span>الشعار والألوان والخطوط، ودليل استخدام الهوية بصيغ الطباعة والشاشة.</span></li>
-            <li><b>المطبوعات والقوالب للبرامج والمواقع</b><span>البطاقات والأوراق الرسمية وعروض الشركة وقوالب الفواتير والعروض.</span></li>
+            <li><b>المطبوعات والقوالب للبرامج والمواقع</b><span>البطاقات والأوراق الرسمية وعروض الشركة التقديمية وقوالب الفواتير وعروض الأسعار.</span></li>
             <li><b>كتابة محتوى البرامج والمواقع</b><span>نصوص المواقع والتطبيقات وملفات تعريف الشركة بالعربية والإنجليزية.</span></li>
             <li><b>التصوير والموشن جرافيك للبرامج والمواقع</b><span>تصوير المنتجات، والفيديوهات التعريفية، والرسوم المتحركة القصيرة.</span></li>
             <li><b>تسليم أصول البرامج والمواقع وحقوقها</b><span>الملفات المصدرية كاملة، وإقرارات تنازل فريق التصميم والتطوير عن الحقوق لصالح منشأتك.</span></li>
@@ -213,7 +213,7 @@
         <span class="eyebrow">عن الشركة</span>
         <h2>شركة سعودية لتقنية المعلومات مقرها الرياض</h2>
         <p>شركة نظم الثريا لتقنية المعلومات شركة سعودية تبني الحلول الرقمية للمنشآت، وتجمع خبرة البرمجة إلى المعرفة بالأنظمة والمتطلبات الحكومية في المملكة، من الفوترة الإلكترونية إلى حماية البيانات الشخصية.</p>
-        <p>نؤمن أن المنتج الرقمي وهويته أصلان من أصول المنشأة، يستحقان أن يُبنيا بإتقان ويُسوَّقا بوعي.</p>
+        <p>نؤمن بأن المنتج الرقمي وهويته أصلان من أصول المنشأة، يستحقان أن يُبنيا بإتقان، وأن يبقيا ملكاً خالصاً لها.</p>
       </div>
       <dl class="facts">
         <div><dt>الاسم التجاري</dt><dd>شركة نظم الثريا لتقنية المعلومات</dd></div>
@@ -223,12 +223,49 @@
     </div>
   </section>
 
-  <section id="join">
+  <section id="contact">
+    <div class="wrap contact">
+      <div>
+        <span class="eyebrow">تواصل معنا</span>
+        <h2>حدّثنا عن مشروعك</h2>
+        <p style="color:var(--mute);margin-top:10px">نردّ على الطلبات خلال يوم عمل واحد.</p>
+        <div class="channels">
+          <div class="ch"><span>البريد الإلكتروني</span><b>info@nuzumalthuraya.com</b></div>
+          <div class="ch"><span>الجوال والواتساب</span><b>+966 58 337 9097</b></div>
+          <div class="ch"><span>العنوان</span><b style="font-family:var(--f-body);direction:rtl">المملكة العربية السعودية - الرياض</b></div>
+        </div>
+      </div>
+      <form id="lead" action="https://formspree.io/f/meaevegv" method="POST" novalidate>
+        <div class="row">
+          <label for="f-name">الاسم<input id="f-name" name="name" required autocomplete="name"></label>
+          <label for="f-phone">رقم الجوال<input id="f-phone" name="phone" inputmode="tel" required dir="ltr" placeholder="05XXXXXXXX"></label>
+        </div>
+        <label for="f-svc">الخدمة المطلوبة
+          <select id="f-svc" name="service">
+            <option>اسم وهوية لبرنامج أو موقع</option>
+            <option>محتوى أو تصوير لبرنامج أو موقع</option>
+            <option>تصميم موقع إلكتروني</option>
+            <option>متجر إلكتروني</option>
+            <option>برمجة منصة إلكترونية</option>
+            <option>تطبيق جوال</option>
+            <option>باقة «ابنِ وتملّك»</option>
+          </select>
+        </label>
+        <label for="f-msg">تفاصيل المشروع<textarea id="f-msg" name="message" placeholder="مثال: نحتاج منصة حجز لعيادات مع تطبيق جوال، واسماً وهوية للمنصة."></textarea></label>
+        <label class="consent" for="f-ok"><input type="checkbox" id="f-ok" name="consent" value="نعم" required> أوافق على معالجة بياناتي للرد على طلبي وفق <a href="privacy.html" target="_blank" rel="noopener">سياسة الخصوصية</a>.</label>
+        <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true" style="display:none">
+        <button class="cta" type="submit" id="f-send">أرسل الطلب</button>
+        <p class="ok" id="f-status" role="status" hidden></p>
+      </form>
+    </div>
+  </section>
+
+  <section id="join" class="band">
     <div class="wrap contact">
       <div>
         <span class="eyebrow">انضم إلينا</span>
         <h2>اعمل معنا في مشاريعنا</h2>
-        <p style="color:var(--mute);margin-top:10px;max-width:34em">نبحث عن مطوّرين ومصممين وكتّاب محتوى ومصورين، للعمل معنا بدوام كامل أو جزئي أو بالمشروع. أرسل بياناتك وملف أعمالك، ونتواصل معك إن وجدنا مشروعاً يناسبك.</p>
+        <p style="color:var(--mute);margin-top:10px;max-width:34em">نبحث عن مطوّرين ومصممين وكتّاب محتوى ومصورين للعمل معنا بدوام كامل أو جزئي أو بالمشروع. أرسل بياناتك وملف أعمالك، ونتواصل معك إن وجدنا مشروعاً يناسبك.</p>
         <ul class="perks">
           <li>مشاريع لمنشآت سعودية في البرمجة والهوية والمحتوى.</li>
           <li>عمل عن بُعد أو من الرياض.</li>
@@ -258,43 +295,6 @@
         <input type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" style="display:none">
         <button class="cta" type="submit" id="j-send">أرسل طلب الانضمام</button>
         <p class="ok" id="j-status" role="status" hidden></p>
-      </form>
-    </div>
-  </section>
-
-  <section id="contact" class="band">
-    <div class="wrap contact">
-      <div>
-        <span class="eyebrow">تواصل معنا</span>
-        <h2>حدّثنا عن مشروعك</h2>
-        <p style="color:var(--mute);margin-top:10px">نرد على الطلبات خلال يوم عمل واحد.</p>
-        <div class="channels">
-          <div class="ch"><span>البريد الإلكتروني</span><b>info@nuzumalthuraya.com</b></div>
-          <div class="ch"><span>الجوال والواتساب</span><b>+966 58 337 9097</b></div>
-          <div class="ch"><span>العنوان</span><b style="font-family:var(--f-body);direction:rtl">المملكة العربية السعودية - الرياض</b></div>
-        </div>
-      </div>
-      <form id="lead" action="https://formspree.io/f/meaevegv" method="POST" novalidate>
-        <div class="row">
-          <label for="f-name">الاسم<input id="f-name" name="name" required autocomplete="name"></label>
-          <label for="f-phone">رقم الجوال<input id="f-phone" name="phone" inputmode="tel" required dir="ltr" placeholder="05XXXXXXXX"></label>
-        </div>
-        <label for="f-svc">الخدمة المطلوبة
-          <select id="f-svc" name="service">
-            <option>اسم وهوية لبرنامج أو موقع</option>
-            <option>محتوى أو تصوير لبرنامج أو موقع</option>
-            <option>تصميم موقع إلكتروني</option>
-            <option>متجر إلكتروني</option>
-            <option>برمجة منصة إلكترونية</option>
-            <option>تطبيق جوال</option>
-            <option>باقة «ابنِ وتملّك»</option>
-          </select>
-        </label>
-        <label for="f-msg">تفاصيل المشروع<textarea id="f-msg" name="message" placeholder="مثال: نحتاج منصة حجز لعيادات مع تطبيق جوال، واسماً وهوية للمنصة."></textarea></label>
-        <label class="consent" for="f-ok"><input type="checkbox" id="f-ok" name="consent" value="نعم" required> أوافق على معالجة بياناتي للرد على طلبي وفق <a href="privacy.html" target="_blank" rel="noopener">سياسة الخصوصية</a>.</label>
-        <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true" style="display:none">
-        <button class="cta" type="submit" id="f-send">أرسل الطلب</button>
-        <p class="ok" id="f-status" role="status" hidden></p>
       </form>
     </div>
   </section>
