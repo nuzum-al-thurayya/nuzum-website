@@ -17,3 +17,8 @@
 | `CNAME` | ربط الموقع بالنطاق nuzumalthuraya.com |
 
 نموذج التواصل يرسل إلى info@nuzumalthuraya.com عبر Formspree؛ معرّف النموذج `meaevegv` في `index.html`.
+
+## طلبات «انضم إلينا»
+
+تُحفظ في جدول Google Sheets باسم «طلبات الانضمام»، وملفات الأعمال في مجلد Google Drive، عبر الكود في `apps-script/join-requests.gs`.
+رابط تطبيق Apps Script يوضع في `index.html` مكان `JOIN_ENDPOINT`. لتصدير الطلبات: من الجدول ← File ← Download ← Microsoft Excel.
