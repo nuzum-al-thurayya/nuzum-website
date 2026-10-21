@@ -17,8 +17,8 @@ img{max-width:100%}
   --field:#0D1B3D;
   --btn:var(--cyan);--btn-ink:var(--navy-0);
   --header-h:70px;
-  --f-display:"Reem Kufi","IBM Plex Sans Arabic",Tahoma,sans-serif;
-  --f-body:"IBM Plex Sans Arabic",Tahoma,"Segoe UI",sans-serif;
+  --f-display:"Readex Pro",Tahoma,"Segoe UI",sans-serif;    /* أقرب خط مجاني لطابع خط الشعار الهندسي */
+  --f-body:"Readex Pro",Tahoma,"Segoe UI",sans-serif;
   --f-mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
   color-scheme:dark;
 }
