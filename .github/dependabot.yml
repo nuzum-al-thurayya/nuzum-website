@@ -1,0 +1,9 @@
+# Dependabot: يراقب إصدارات أدوات GitHub Actions ويفتح طلبات دمج لتحديثها.
+# الموقع حالياً ثابت بلا مكتبات (لا package.json ولا غيره) ولا ملفات workflows؛
+# فهذا الإعداد لا يفتح شيئاً الآن، ويبدأ العمل تلقائياً متى أُضيفت ملفات إلى .github/workflows.
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"

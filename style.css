@@ -221,3 +221,13 @@ footer a{color:var(--mute)}
 .rel{display:grid;gap:4px;text-decoration:none;border:1px solid var(--line);border-radius:12px;padding:16px 18px;background:var(--navy-1);color:var(--ink);min-width:0}
 .rel:hover{border-color:var(--cyan)}
 .rel span{color:var(--mute);font-size:.9rem}
+
+/* أصناف بدل الأنماط المضمّنة (تتطلبها سياسة أمان المحتوى) */
+.sprite{position:absolute}
+figure.sky{margin:0}
+.num{font-variant-numeric:tabular-nums}
+.sub{color:var(--mute);margin-top:10px}
+.sub.narrow{max-width:34em}
+.ch b.ch-text{font-family:var(--f-body);direction:rtl}
+.hp{display:none}
+.doc p.intro{margin-top:20px}
