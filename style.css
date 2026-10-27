@@ -5,6 +5,10 @@ img{max-width:100%}
 [hidden]{display:none!important}
 
 /* التخطيط: صفحة عربية من اليمين لليسار، شريط بطل بشعار الهوية على خلفيتها المتدرجة، ثم الركائز الثلاث جنباً إلى جنب، ثم المسار، ثم التواصل */
+/* خط الهوية Ara Hamah 1964 (Regular للأوزان حتى 500، وBold للأوزان من 600) — ملفاته في /fonts
+   حروفه أصغر من الخطوط المعتادة بنحو الثلث، فيكبّره size-adjust ليبقى حجم النصوص كما صُمم الموقع */
+@font-face{font-family:"Ara Hamah 1964";src:url("/fonts/AraHamah1964-Regular.woff2") format("woff2");font-weight:100 500;font-style:normal;font-display:swap;size-adjust:130%}
+@font-face{font-family:"Ara Hamah 1964";src:url("/fonts/AraHamah1964-Bold.woff2") format("woff2");font-weight:600 900;font-style:normal;font-display:swap;size-adjust:135%}
 :root{
   --navy-0:#0A1630;      /* الأرضية الداكنة */
   --navy-1:#10214A;      /* سطح مرتفع */
@@ -17,8 +21,8 @@ img{max-width:100%}
   --field:#0D1B3D;
   --btn:var(--cyan);--btn-ink:var(--navy-0);
   --header-h:70px;
-  --f-display:"Readex Pro",Tahoma,"Segoe UI",sans-serif;    /* أقرب خط مجاني لطابع خط الشعار الهندسي */
-  --f-body:"Readex Pro",Tahoma,"Segoe UI",sans-serif;
+  --f-display:"Ara Hamah 1964",Tahoma,"Segoe UI",sans-serif;    /* خط الهوية */
+  --f-body:"Ara Hamah 1964",Tahoma,"Segoe UI",sans-serif;
   --f-mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
   color-scheme:dark;
 }
