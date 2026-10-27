@@ -33,3 +33,9 @@
 كل صفحة تحمل سياسة أمان المحتوى (Content-Security-Policy) في وسم meta، لأن GitHub Pages لا يسمح بترويسات مخصصة.
 لذلك لا يُكتب أي سكربت أو `style="..."` داخل HTML: السكربتات في `js/site.js` (القائمة، لكل الصفحات) و`js/home.js` (نماذج الرئيسية)، والأنماط في `style.css`.
 عند إضافة خدمة خارجية جديدة (مثل رابط Apps Script لنموذج الانضمام: `https://script.google.com` و`https://script.googleusercontent.com`) أضف نطاقها إلى `connect-src` في وسم السياسة بكل الصفحات.
+
+## الخطوط
+
+خط الهوية **Ara Hamah 1964** (Regular وBold) محفوظ في `fonts/` بصيغة WOFF2، ومعرّف في أول `style.css` بـ `@font-face`.
+حروفه أصغر من الخطوط المعتادة، فيكبّرها `size-adjust` (130% للعادي و135% للعريض) ليبقى حجم النصوص كما صُمم الموقع.
+خط IBM Plex Mono فقط يُحمَّل من Google Fonts، للتسميات اللاتينية الصغيرة تحت رسم الثريا.
